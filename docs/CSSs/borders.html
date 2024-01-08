@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin-top: 10px;
+        }
+        /*div {  전체 div로 지정 */
+        .dotted {
+            border-style: dotted;
+            border-width: 4px;
+            
+            border-color: blue;
+        }
+        /* .solid { class name으로 지정 */
+        div.solid {  /* tab + class name 으로 지정 */
+            border-style: solid;
+            border-top-width: 5px;
+            border-right-width: 10px;
+            border-bottom-width: 15px;
+            border-left-width: 20px;
+            
+            border-left-color: blueviolet;
+            border-bottom-color: chocolate;
+        }
+        .double {
+            border-style: double;
+            /* short hand */
+            /* border-width: 5px 10px 15px 20px;  top right bottom left */
+            /* border-width: 5px 15px ; top-bottom right-left */
+            /*vborder-width: 5px 0px 15px 0px;  top right bottom left */ 
+            border: 3px double red;
+            /*border-radius: 10px; 전체 적용 */
+            /*border-radius: 3px 6px 9px 12px; top-left를 시작으로 시계방향*/   
+            border-radius: 5px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>border style</h1>
+        <div class="dotted">A dotted border.</div>
+        <div class="solid">A solid border.</div>
+        <div class="double">A double border.</div>
+    <form action="../index.html">
+        <button type="submit">index.html로 이동</button:sumbit>
+        </form>
+    </main>
+</body>
+
+</html>

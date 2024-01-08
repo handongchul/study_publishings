@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperlink</title>
+</head>
+
+<body>
+    <!-- a tag 외부 사이트 접속 -->
+    <div>a tag 외부 사이트 접속</div>
+    <div>
+        <a href="https://www.daum.net">daum link</a>
+    </div>
+    <div> 
+        <a href="https://www.daum.net/index.html">daum link with file name</a>
+    </div>
+
+    <hr>
+
+    <!-- a tag 내부 사이트 접속 -->
+    <div>a tag 내부 사이트 접속</div>
+    <div>
+        <a href="http://192.168.0.164:5500/docs/welcome.html">welcome with 절대경로</a>
+    </div>
+    <div>
+        <a href="welcome.html">welcome with 같은 폴더 파일</a>
+    </div>
+    <div>
+        <a href="./welcome.html">welcome with 같은 폴더 파일 using ./</a>
+    </div>
+    <div>
+        <a href="../temp.htm">temp with 상위경로 using ../</a>
+    </div>
+
+    <hr>
+
+    <!-- form tag 사이트 간 정보 전달 -->
+    <div>form tag 사이트 간 정보 전달</div>
+    <form action="./welcome.html" method="get">
+        <button>welcome.html으로 전송</button>
+    </form>
+    <form action="../index.html">
+        <button type="submit">index.html로 이동</button:sumbit>
+        </form>
+</body>
+
+</html>

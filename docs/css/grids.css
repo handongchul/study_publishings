@@ -1,0 +1,21 @@
+.grid-container-justify{
+    display: grid;
+    grid-template-columns: 40px 50px 60px;
+    gap: 10px;
+    /* justify-content: center; star, center, end */
+    justify-content: space-between; /*around*/
+    
+
+}
+.grid-item-second-main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-container {
+    display: grid;
+    /* grid-template-columns: auto auto auto; 갯수만큼 컬럼수 컬럼수 만큼 너비 조정*/
+    /* grid-template-columns: 50px auto auto; 지정 넓이만큼 표시*/
+    grid-template-columns: 20% 50% 30%;
+    /* grid-template-columns: 40px 50px 60px; */
+    gap: 10px;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+
+<body>
+    <!-- 3행 1열 -->
+    <h1>row 3, column 1</h1>
+    <table border="1">
+        <tr>
+            <td>1행 1열</td>
+        </tr>
+        <tr>
+            <td>2행 1열</td>
+        </tr>
+        <tr>
+            <td>3행 1열</td>
+        </tr>
+    </table>
+
+    <!-- 3행 2열 -->
+    <h1>row 3, column 2</h1>
+    <table border="1">
+        <tr>
+            <td>row 1, column 1</td>
+            <td>row1, column 2</td>
+        </tr>
+        <tr>
+            <td>row 2, column 1</td>
+            <td>row 2, column 2</td>
+        </tr>
+        <tr>
+            <td>row 3, column 1</td>
+            <td>row 3, column 2</td>
+        </tr>
+    </table>
+
+    <!-- row 2, column 2 -->
+    <h1>row 2, column 2 with head</h1>
+    <table border="1">
+        <tr>
+            <th>column head 1</th>
+            <th>column head 2</th>
+        </tr>
+        <tr>
+            <td>row 1, column 1</td>
+            <td>row 1, column 2</td>
+        </tr>
+        <tr>
+            <td>row 2, column 1</td>
+            <td>row 2, column 2</td>
+        </tr>
+    </table>
+
+    <!-- row 3, column 2 -->
+    <h1>row 3, column 3 with merge(병합)</h1>
+    <table border="1">
+        <tr>
+            <td colspan="2">row 1, column 1</td>
+            <td rowspan="3">row 1, column 3</td>
+        </tr>
+        <tr>
+            <td>row 2, column 1</td>
+            <td rowspan="2">row 2, column 2</td>
+        </tr>
+        <tr>
+            <td>row 3, column 1</td>
+        </tr>
+    </table>
+
+    <!-- 3행 2열 -->
+    <h1>row 3, column 2 with width</h1>
+    <table border="1" width="100%">
+        <tr>
+            <td>row 1, column 1</td>
+            <td width="10">row 1, column 2</td>
+        </tr>
+        <tr>
+            <td>row 2, column 1</td>
+            <td>row 2, column 2</td>
+        </tr>
+        <tr>
+            <td>row 3, column 1</td>
+            <td>row 3, column 2</td>
+        </tr>
+    </table>
+    <form action="../index.html">
+        <button type="submit">index.html로 이동</button:sumbit>
+        </form>
+</body>
+
+</html>

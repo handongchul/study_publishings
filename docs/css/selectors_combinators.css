@@ -1,0 +1,18 @@
+/* 하위 자식 모두 */
+/* div p {
+    background-color: yellow;
+  } */
+
+  /* 하위 자식 모두 */
+/* div > p {
+    background-color: brown;
+  } */
+
+  /* 같은 형제 자매 중 첫번째만 선택 */
+div + p {
+    background-color: blueviolet;
+  }
+/* 같은 형제 자매 중 다음에 나오는 모두 */
+  div ~ p {
+    background-color: chocolate;
+  }

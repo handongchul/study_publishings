@@ -1,0 +1,15 @@
+.nav {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: ;
+}
+
+.nav-item {
+    background-color: chocolate;
+    padding: 20px;
+    text-decoration: none;
+}
+.nav-item > a {
+    text-decoration: none;
+}
